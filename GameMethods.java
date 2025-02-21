@@ -76,6 +76,16 @@ public class GameMethods
                 }
     }
 
+    public static void clearConsole()
+        {
+            int i;
+
+            for(i = 0; i < 50; i++)
+                {
+                    System.out.println();
+                }
+        }
+
 
     public static boolean checkWin(char[][] theBoard, int theTurnCounter)
     {
@@ -150,14 +160,6 @@ public class GameMethods
                     System.out.println("\nPlayer 2 Wins!");
                 }
         }
-
-    public static void clearConsole()
-        {
-            int i;
-
-            for(i = 0; i < 50; i++)
-                {
-                    System.out.println();
-                }
-        }
 }
+
+    
